@@ -1,0 +1,369 @@
+body {
+    font-family: 'Rubik', sans-serif !important;
+    background-color: #1B1D1E !important;
+    color: whitesmoke;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+.title {
+    font-weight :bold;
+    color: white;
+    font-size: 4rem;
+    margin :12rem 0 0 2.5rem;
+}
+
+.subtitle {
+    padding-left: 2.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.navbarcolor {
+    background-color: #131516 !important;
+}
+
+h2 { 
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btnnv {
+    border: 2px solid #29347A !important;
+    color: white !important;
+    margin-left: 17rem;
+}
+
+.btnnv:hover {
+    background-color: #29347A !important;
+}
+
+#loginbtn {
+    background-color: #29347A;
+    margin-left: 1rem;
+}
+
+.paddingnav {
+    padding-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navitm {
+    margin-left: 1.2rem;
+    color: white !important;
+}
+
+.btntitle {
+    border: 2px solid #29347A !important;
+    color: white !important;
+    margin-left: 5rem;
+    margin-bottom: 17rem;
+
+}
+
+.btntitle:hover {
+    background-color: #29347A !important;
+}
+.bggradient{
+    position: absolute;
+    top: 5rem;
+    left: 39rem;
+    
+}
+
+.mainimage {
+    display :flex;
+    position :absolute;
+    width: 45%;
+    top: 4rem;
+    bottom: 8rem;
+    left: 43rem;
+    padding-bottom: 1rem;
+    margin: 10rem 0 0 ;
+}
+.float3 {
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    width: 12%;
+    top: 10rem;
+    bottom: 57rem;
+    left: 59rem;
+    
+}
+
+.float2 {
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    width: 11%;
+    top: 30rem;
+    left: 67rem;
+    
+}
+
+.float1 {
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    width: 11%;
+    bottom: 3rem;
+    left: 50rem;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #29347A;
+    height: 16rem;
+    width: 100%;
+    color: white;
+}
+
+.bix1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7rem;
+}
+
+.headtext {
+    font-weight: 900;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 10rem;
+}
+
+.question {
+    color: #6e96cf;
+    font-family: 'Rubik';
+    text-align: center;
+    font-weight: 600;
+    padding-top: 6rem;
+}
+
+.learning {
+    color: white;
+    font-size: 2.5rem;
+
+}
+
+.featurebg {
+position: absolute;
+top: 71rem;
+left: 0rem;
+}
+
+.featurediv {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 4rem 0 0 1rem;
+    
+}
+
+.featurediv2{
+    display: grid;
+    grid-template-rows: 1fr 10rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 4rem 0 0 1rem; 
+}
+
+.features{
+    background-color: rgb(20, 20, 20);
+    color: rgb(186, 186, 186);
+    width: 23rem;
+    height: 20rem;
+    border-radius:0.5rem;
+    border: 0;
+    border-bottom: 0.5rem;
+    border-style: solid;
+    padding: 2rem 1.8rem;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.color1 {
+    border-color:#0F4F47;
+}
+
+.color2 {
+    border-color: #800101;
+}
+
+.color3 {
+    border-color: rgb(34, 0, 114);
+}
+
+.color4 {
+    border-color: rgb(114, 0, 80);
+}
+
+.color5 {
+    border-color: rgb(13, 114, 0);
+}
+
+.color6 {
+    border-color: rgb(150, 90, 0);
+}
+
+.circle {
+    border-radius: 100%;
+    width: 4.7rem;
+    height: 4.7rem;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.feature-logo {
+    width: 2.8rem;
+    position: relative;
+    top: 0.9rem;
+}
+
+.circle-color1 {
+    background-color: #0F4F47;
+}
+.circle-color2 {
+    background-color: #260b0b;
+}
+
+.circle-color3 {
+    background-color: rgb(34, 0, 114);
+}
+
+.circle-color4 {
+    background-color: rgb(114, 0, 80);
+}
+
+.circle-color5 {
+    background-color: rgb(13, 114, 0);
+}
+
+.circle-color6 {
+    background-color: #260b0b;
+}
+
+.bg3 {
+    background-color: #040505;
+    height: 50rem;
+
+}
+
+.bggradient1 {
+    position: absolute;
+    top: 142.2rem;
+    width: 90rem;
+    transform: scaleX(-1);
+    opacity: 60%;
+}
+
+.bglines {
+    position :absolute;
+    width: 87.5rem;
+    top: 93rem;
+}
+
+.sectionq {
+    height: 75rem;
+    background-color :#1B1D1E;
+}
+
+.profile-pic {
+    display: flex; 
+    justify-content:center ;
+    margin-bottom: 11rem;
+}
+
+.profile-pic img {
+    width: 15rem;
+}
+
+.instructor {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 4rem 0 0 4rem;
+}
+.btninstructor {
+    border: 2px solid #29347A !important;
+    color: white !important;
+    cursor: pointer !important;
+    position: relative;
+    left: 70rem;
+    bottom: 4.8rem;
+
+}
+.btninstructor:hover {
+    background-color: #29347A !important;
+
+}
+
+.bg3 hr {
+    color: white;
+    border-top: solid 1.7px;
+    width: 77rem; 
+    position: relative;
+    left: 4rem;
+    bottom: 3.5rem; 
+
+}
+
+.bg3 h3 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 173.5rem;
+}
+
+.bg3 h5 {
+    color: rgb(71, 71, 71);
+    text-align: center;
+    position: absolute;
+    top: 175.8rem;
+    font-weight: 500;
+}
+
+.company {
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    
+.amazon1>h5{
+    color: #868686;
+   margin: 11rem 0 0 5rem ;
+}
+.microsoft1>h5{
+    color: #868686;
+    margin: 11rem 0 0 -0.4rem ;
+} 
+
+.google1>h5{
+    color: #868686;
+    margin: 11rem 0 0 -1.1rem;
+
+}
+
+.amazon {
+    width: 10rem;
+    margin-left: 5rem;
+}
+
+.google{
+    margin-right:5rem ;
+}
