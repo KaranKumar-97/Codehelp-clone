@@ -3,8 +3,8 @@ body {
     background-color: #1B1D1E !important;
     color: whitesmoke;
     overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+    margin-top: 0;
+    padding-top: 8rem;
 }
 
 .logo {
@@ -21,6 +21,14 @@ body {
     padding-left: 2.5rem;
     font-size: 2rem;
     font-weight: 400;
+}
+
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .navbarcolor {
@@ -69,11 +77,11 @@ h2 {
 .btntitle:hover {
     background-color: #29347A !important;
 }
+
 .bggradient{
     position: absolute;
     top: 5rem;
     left: 39rem;
-    
 }
 
 .mainimage {
@@ -86,7 +94,7 @@ h2 {
     padding-bottom: 1rem;
     margin: 10rem 0 0 ;
 }
-.float3 {
+/* .float3 {
     display: flex;
     position: absolute;
     justify-content: right;
@@ -94,31 +102,120 @@ h2 {
     top: 10rem;
     bottom: 57rem;
     left: 59rem;
-    
+} */
+
+.float3 {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    width: 12%;
+    top: -30rem;
+    left: 59rem;
+    margin-top: -12rem;
 }
 
 .float2 {
-    display: flex;
-    position: absolute;
+    float: left;
+    position: relative;
     justify-content: right;
     width: 11%;
-    top: 30rem;
+    bottom: 10rem;
     left: 67rem;
+    margin-top: -10rem;
     
 }
 
-.float1 {
+/* .float1 {
     display: flex;
     position: absolute;
     justify-content: right;
     width: 11%;
     bottom: 3rem;
     left: 50rem;
+} */
+
+.float1 {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    width: 11%;
+    bottom: 21rem;
+    left: 50rem;
+    margin-top: -10rem;
+}
+
+.animationfloat3 {
+    animation-name: float3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.animationfloat2 {
+    animation-name: float2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.animationfloat1 {
+    animation-name: float1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes float3 {
+    0% {
+        
+        top: -30rem;
+    }
+    50% {
+    
+        top: -30.5rem;
+    }
+
+    100% {
+        top : -30rem;
+    }
+
+}
+
+
+@keyframes float2 {
+    0% {
+        
+        top: -10rem;
+    }
+    50% {
+    
+        top: -10.5rem;
+    }
+
+    100% {
+        top : -10rem;
+    }
+
+}
+
+@keyframes float1 {
+    0% {
+        
+        bottom: 11rem;
+    }
+    50% {
+    
+        bottom: 11.5rem;
+    }
+
+    100% {
+        bottom: 11rem;
+    }
+
 }
 
 .statistics {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #29347A;
     height: 16rem;
@@ -166,7 +263,7 @@ left: 0rem;
 .featurediv {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
     justify-items: center;
     margin: 4rem 0 0 1rem;
     
