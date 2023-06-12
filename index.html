@@ -18,6 +18,8 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 </head>
 
@@ -61,14 +63,18 @@
             </div>
         </nav>
 
-        <div class="title">
+        <div class="title" data-aos="fade-right">
             <p class="title"><span style="color :#6E96CE;">Learn </span>With <span id="name"></span></p>
             
             <p class="subtitle">The Ultimate Guide To Ace <br> SDE Interviews.</p>
         </div>
 
-        <button class="btn btn-outline-primary btn-lg btntitle" type="submit">View Courses</button>
-        <button class="btn btn-primary btn-lg btntitle" id="loginbtn" type="submit">Watch Video</button>
+        <div class="btnanimation" data-aos="fade-right" data-aos-delay="500">
+            <button class="btn btn-outline-primary btn-lg btntitle" type="submit">View Courses</button>
+            <button class="btn btn-primary btn-lg btntitle" id="loginbtn" type="submit">Watch Video</button>
+
+        </div>
+
 
         <div>
             <img class="bggradient" src="Images/bggradient.png" alt="">
@@ -106,28 +112,28 @@
             </div>
         </div>
 <div class="sectionq">
-        <div class="question">
+        <div class="question" data-aos="fade-up" data-aos-delay="100">
             <h3 style="font-size: 1.4rem;">WHY CODE-HELP?</h3>
             <p class="learning">Making learning easier and <br> more convenient for you</p>
 
         </div>
         <div class="featurediv">
             <img class="featurebg" src="Images/featuresbg.png" alt="">
-            <div class="features color1">
+            <div class="features color1" data-aos="fade-right">
                 <div class="circle circle-color1">
                     <img class="feature-logo" src="Images/svg-export/svgexport-10.png" alt="DSA">
-                </div>
+                </div data-aos="fade-lef>
                 <h5 style="color: white;">Data Structure</h5>
                 Data structures are the problem-solving pillars of coding. Learn all the foundational knowledge about all of the popular data structure that you need, to be well-versed in interviews
             </div>
-            <div class="features color2">
+            <div class="features color2" data-aos="fade-up">
                 <div class="circle circle-color2">
                     <img class="feature-logo" src="Images/svg-export/svgexport-11.png" alt="">
                 </div>
                 <h5 style="color: white;">Placement Preparation</h5>
                 Ace the placement interviews by being knowledgeable in all well-known data structures, popular problem-solving methods, and core computer sciences.
             </div>
-            <div class="features color3">
+            <div class="features color3" data-aos="fade-left">
                 <div class="circle circle-color3">
                     <img class="feature-logo" src="Images/svg-export/svgexport-12.png" alt="">
                 </div>
@@ -137,20 +143,20 @@
             </div>
             <br>
             <div class="featurediv2">
-                <div class="features color4"><div class="circle circle-color4">
+                <div class="features color4" data-aos="fade-right"><div class="circle circle-color4">
                     <img class="feature-logo" src="Images/svg-export/svgexport-13.png" alt="">
                 </div>
                 <h5 style="color: white;">Curated Content</h5>
                 Learn in-depth conceptual overviews, how to approach an algorithm, how to implement it & how to optimize it.
             </div> 
-                <div class="features color5">
+                <div class="features color5" data-aos="fade-up" >
                     <div class="circle circle-color5">
                         <img class="feature-logo" src="Images/svg-export/svgexport-14.png" alt="">
                     </div>
                     <h5 style="color: white;">Learn from the best</h5>
                     Get access to lectures and get mentored by one of the best in the market, Love Babbar.
                 </div>
-                <div class="features color6">
+                <div class="features color6" data-aos="fade-left">
                     <div class="circle circle-color6">
                         <img class="feature-logo" src="Images/svg-export/svgexport-15.png" alt="">
                     </div>
@@ -169,22 +175,26 @@
                     <button class="btn btn-primary btn-lg btninstructor" id="loginbtn" type="submit">Watch Video</button>
                     <hr>
                 </div>
-                    <div class="profile-pic"> <img style="width:15rem" src="Images/karan.png" alt="">
+                    <div class="profile-pic" > 
+                        <img data-aos="fade-up" data-aos-delay="100" style="width:15rem" src="Images/karan.png" alt="">
+
                         <h3>Karan Kumar</h3>
                         <h5>B.Tech CSE,MSIT</h5>
+                       
                     </div>  
+                   
                         <div class="company">
-                            <div class="amazon1">
+                            <div class="amazon1" data-aos="fade-right">
                                 <img class="amazon" src="Images/amazon.png" alt="amazon">
-                            <h5>Ex-Amazon, SWE</h5>
+                            <p>Ex-Amazon, SWE</p>
                             </div>
-                            <div class="microsoft1">
+                            <div class="microsoft1" data-aos="fade-up">
                                 <img class="microsoft" src="Images/microsoft.png" alt="microsoft">
-                                <h5>Ex-Microsoft, SWE</h5>
+                                <p>Ex-Microsoft, SWE</p>
                             </div>
-                            <div class="google1">
+                            <div class="google1" data-aos="fade-left">
                                 <img class="google" src="Images/google.png" alt="google">
-                                <h5>Amazon ASC,India</h5>
+                                <p>Amazon ASC,India</p>
                             </div>
                             
                         </div>
@@ -219,6 +229,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 

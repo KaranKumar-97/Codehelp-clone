@@ -389,6 +389,8 @@ left: 0rem;
     width: 15rem;
 }
 
+
+
 .instructor {
     color: white;
     font-size: 3rem;
@@ -441,18 +443,24 @@ left: 0rem;
     justify-content: space-around;
 }
     
-.amazon1>h5{
+.amazon1>p{
+    font-weight: 600;
+    font-size: 1.25rem;
     color: #868686;
-   margin: 11rem 0 0 5rem ;
+    margin: 1rem 0 0 5rem ;
 }
-.microsoft1>h5{
+.microsoft1>p{
+    font-weight: 600;
+    font-size: 1.25rem;
     color: #868686;
-    margin: 11rem 0 0 -0.4rem ;
+    margin: 1rem 0 0 -0.4rem ;
 } 
 
-.google1>h5{
+.google1>p{
+    font-weight: 600;
+    font-size: 1.25rem;
     color: #868686;
-    margin: 11rem 0 0 -1.1rem;
+    margin: 1rem 0 0 -1.1rem;
 
 }
 
