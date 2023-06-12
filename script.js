@@ -31,4 +31,6 @@ IO.observe( el2 )
 IO.observe( el3 )
 IO.observe( el4 )
 
-
+AOS.init({
+	duration: 1200,
+  })
